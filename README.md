@@ -1,4 +1,4 @@
-Cryptify - Secure Password Generator
+#Cryptify - Secure Password Generator
 Cryptify adalah sebuah aplikasi web client-side yang dirancang untuk membantu pengguna membuat, menyimpan, dan mengelola kata sandi yang kuat dengan mudah. Semua data disimpan secara lokal di browser pengguna, memastikan privasi dan keamanan karena tidak ada data yang dikirim ke server eksternal.
 
 Fitur Utama ✨
