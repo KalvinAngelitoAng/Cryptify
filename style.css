@@ -1,0 +1,82 @@
+body {
+    background-color: #f0f2f5;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card {
+    border: none;
+    border-radius: 15px;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1) !important;
+}
+
+.card-header {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.btn-primary {
+    background: linear-gradient(45deg, #0d6efd, #0dcaf0);
+    border: none;
+    transition: background 0.3s;
+}
+
+.btn-primary:hover {
+    background: linear-gradient(45deg, #0dcaf0, #0d6efd);
+}
+
+.form-control-lg {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.form-check-input:checked {
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+}
+
+#generatedPassword {
+    cursor: default;
+    background-color: #e9ecef;
+}
+
+#copyBtn i {
+    transition: transform 0.2s;
+}
+
+#copyBtn:active i {
+    transform: scale(0.8);
+}
+
+/* === CSS BARU UNTUK TABEL === */
+.password-cell {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.password-text {
+    font-family: monospace;
+    font-size: 1.1em;
+    flex-grow: 1;
+}
+
+.action-btn {
+    cursor: pointer;
+    margin-left: 8px;
+    color: #6c757d;
+    transition: color 0.2s;
+}
+
+.action-btn:hover {
+    color: #0d6efd;
+}
+
+.action-buttons-cell button {
+    margin-right: 5px;
+}
