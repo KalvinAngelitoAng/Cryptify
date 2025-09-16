@@ -34,7 +34,7 @@ Unduh atau Clone Repositori
 
 Bash
 
-git clone https://github.com/nama-anda/cryptify.git
+git clone https://github.com/KalvinAngelitoAng/cryptify.git
 Atau unduh file ZIP dan ekstrak isinya.
 
 Buka Folder Proyek
